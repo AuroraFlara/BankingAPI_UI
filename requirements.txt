@@ -64,4 +64,7 @@ PyJWT
 SQLAlchemy
 pymysql
 passlib
+pydantic_settings
+aiomysql
+orjson
 greenlet
