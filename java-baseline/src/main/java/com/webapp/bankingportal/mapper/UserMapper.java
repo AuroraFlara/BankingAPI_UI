@@ -7,7 +7,6 @@ import org.mapstruct.NullValuePropertyMappingStrategy;
 
 import com.webapp.bankingportal.entity.User;
 
-@Mapper(componentModel = "spring")
 public interface UserMapper {
 
     @BeanMapping(nullValuePropertyMappingStrategy = NullValuePropertyMappingStrategy.IGNORE)

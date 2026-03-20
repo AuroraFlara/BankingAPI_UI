@@ -221,7 +221,7 @@ elif choice == "Financial Operations":
 
     # 9) Fund Transfer
     # Requires a target account number
-    st.success("### 9) Internal Fund Transfer")
+    st.success("### 9) Fund Transfer")
     with st.expander("Transfer to Another Account", expanded=True):
         with st.form("transfer_form"):
             target = st.text_input("Recipient Account Number")

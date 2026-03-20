@@ -8,10 +8,10 @@ import org.springframework.scheduling.annotation.EnableAsync;
 @SpringBootApplication
 @EnableCaching // Add this annotation to enable caching support
 @EnableAsync
-public class BankingPortalApplication {
+public class BankingportalApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BankingPortalApplication.class, args);
+		SpringApplication.run(BankingportalApplication.class, args);
 	}
 
 }
